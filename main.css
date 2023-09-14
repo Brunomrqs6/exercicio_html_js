@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+form {
+    display: inline;
+    position: relative;
+    left: 690px;
+    top: 50px;
+}
+
+.mensagem-sucesso {
+    color: white;
+    max-width: 335px;
+    background-color: green;
+    display: none;
+}
+
+.mensagem-erro {
+    color: white;
+    max-width: 335px;
+    background-color: red;
+    display: none;
+}
